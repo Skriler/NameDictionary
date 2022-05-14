@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NameDictionary</string>
+
+    <string name="close">Close</string>
+    <string name="name_day_date">Name day date:</string>
+    <string name="definition">Definition:</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.NameInfoFragment"
+    >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/second_fragment_element_margin"
+        android:textSize="@dimen/base_text_size"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/tvNameDayDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_margin="@dimen/second_fragment_element_margin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/base_text_size"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:text="@string/name_day_date"
+        />
+
+    <TextView
+        android:id="@+id/tvDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:layout_margin="@dimen/second_fragment_element_margin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/base_text_size"
+        android:text="@string/definition"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"
+        android:scrollbars="vertical"
+        />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/second_fragment_element_margin"
+        android:textColor="@color/white"
+        android:textSize="@dimen/base_text_size"
+        android:text="@string/close"
+        />
+
+</LinearLayout>
